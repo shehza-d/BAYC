@@ -1,18 +1,19 @@
-body{
+body {
     background-color: rgb(30, 22, 22);
     font-family: 'Montserrat', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(21, 46, 67)  ;
+    background-color: rgb(21, 46, 67);
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 32px;
     padding-right: 32px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     padding-top: 18px;
     list-style: none;
@@ -20,64 +21,193 @@ nav ul{
     color: white;
     padding-right: 15px;
 }
-nav ul li{
+
+nav ul li {
     padding: 10px;
     padding-right: 27px;
     font-weight: 500;
     font-size: 8px;
     font-style: italic;
 }
+
 nav li:hover {
     color: #B3BC00;
     font-color: #B3BC00;
 }
 
-.navlinks{
+.navlinks {
     display: flex;
 }
 
-.icons{
+.icons {
     display: flex;
 }
 
-.icons>i>img{
+.icons>i>img {
     cursor: pointer;
     font-size: 100px;
     color: blue;
- font-color: blue ;
+    font-color: blue;
 }
-.icons>i>img:hover{
-}
+
+.icons>i>img:hover {}
+
 /* fair distribution color #BFC500 #BFC500 */
 
 
-.coverimg{
+.coverimg {
     display: block;
     margin: auto;
     border-radius: 5px;
 }
 
 
-.welcomediv{
-   display: flex;
+.section1 {
+    display: flex;
 }
-.welcometext>h1{
- color: white;
- font-size: 29px;
- font-weight: 900;
- line-height: 35px;
- font-style: italic;
-}
-.welcometext>p{
+
+.section1text>h1 {
     color: white;
-   font-size: 16px;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 35px;
+    font-style: italic;
+}
+
+.section1text>p {
+    color: white;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.fourimggrid{
+.fourimggrid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.twoimgrow {
     display: flex;
 }
-.twoimgrow{
-    /* display: flex; */
+
+
+.section2 {
+    display: flex;
+}
+
+.section2text>h2 {
+    color: #B3BC00;
+    font-style: italic;
+}
+
+.section2text>h5 {
+    color: white;
+}
+
+.section2text>p {
+    color: white;
+}
+
+
+
+
+.note {
+    color: white;
+    font-style: italic;
+
+    font-weight: 200;
+}
+
+.yellowcontainer {
+    margin: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 20px;
+    background-color: #B3BC00;
+    color: black;
+    border-bottom: 1px solid #3b3b3b;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.yellowcontainer button {
+    padding: 6px;
+    background-color: black;
+    color: #B3BC00;
+    border-radius: 10px;
+  
+}
+
+
+.section4 {
+    display: flex;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.section4text>h1{
+    color: white;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 35px;
+    font-style: italic;
+}
+.section4text>p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section4text a {
+    color: #B3BC00;
+}
+
+.section4text a:hover {
+    color: #ffffff;
+}
+
+.section5{
+    border-bottom: 1px solid #3b3b3b;
+}
+.section5text>h1 {
+    color: white;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 35px;
+    font-style: italic;
+}
+.section5text>p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section5icons{
+    color: white;
+    display: flex;
+}
+
+
+
+
+.section6{
+    display: flex;
+    border-bottom: 1px solid #3b3b3b;
+}
+.section6text>h1{
+    color: white;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 35px;
+    font-style: italic;
+}
+.section6text>p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.toilet{
+    margin-left: 21px;
+    margin-right: 21px;
 }
