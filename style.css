@@ -1,10 +1,12 @@
 body{
-    background-color: rgb(184, 98, 98);
+    background-color: rgb(30, 22, 22);
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav{
     display: flex;
-    background-color: rgb(30, 134, 224)  ;
+    justify-content: space-between;
+    background-color: rgb(21, 46, 67)  ;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 32px;
@@ -12,14 +14,70 @@ nav{
 }
 nav ul{
     display: flex;
-    padding: 2px;
+    padding-top: 18px;
     list-style: none;
     cursor: pointer;
+    color: white;
+    padding-right: 15px;
 }
-
+nav ul li{
+    padding: 10px;
+    padding-right: 27px;
+    font-weight: 500;
+    font-size: 8px;
+    font-style: italic;
+}
 nav li:hover {
     color: #B3BC00;
+    font-color: #B3BC00;
+}
+
+.navlinks{
+    display: flex;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons>i>img{
+    cursor: pointer;
+    font-size: 100px;
+    color: blue;
+ font-color: blue ;
+}
+.icons>i>img:hover{
+}
+/* fair distribution color #BFC500 #BFC500 */
+
+
+.coverimg{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
 }
 
 
-/* fair distribution color #BFC500 #BFC500 */
+.welcomediv{
+   display: flex;
+}
+.welcometext>h1{
+ color: white;
+ font-size: 29px;
+ font-weight: 900;
+ line-height: 35px;
+ font-style: italic;
+}
+.welcometext>p{
+    color: white;
+   font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.fourimggrid{
+    display: flex;
+}
+.twoimgrow{
+    /* display: flex; */
+}
