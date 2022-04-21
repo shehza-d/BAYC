@@ -211,3 +211,17 @@ nav li:hover {
     margin-left: 21px;
     margin-right: 21px;
 }
+
+.section7 h1{
+    color: white;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 35px;
+    font-style: italic;
+}
+.section7 p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
