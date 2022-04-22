@@ -168,6 +168,7 @@ margin: 15px;
     color: #B3BC00;
     border-radius: 10px;
     padding: 6px;
+    border-style: none;
 }
 .yellowcontainer button:hover{
     background-color: #ffffff;
