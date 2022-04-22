@@ -6,7 +6,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(21, 46, 67);
+    background-color: rgb(0, 0, 0);
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 32px;
@@ -39,18 +39,29 @@ nav li:hover {
     display: flex;
 }
 
-.icons {
+.iconscontainer {
     display: flex;
+    fill: #ffffff;
+margin: 15px;
+    /* width: 20px; */
 }
-
-.icons>i>img {
+.icon{
+    padding-right: 13px;
+    fill: white;
+    width: 28px;
+    cursor: pointer;
+}
+.icon:hover{
+    fill: #B3BC00;
+}
+/* .icons>i>img> {
     cursor: pointer;
     font-size: 100px;
     color: blue;
     font-color: blue;
 }
 
-.icons>i>img:hover {}
+.icons>i>img:hover {} */
 
 /* fair distribution color #BFC500 #BFC500 */
 
@@ -141,14 +152,22 @@ nav li:hover {
     justify-content: space-evenly;
 
 }
-.yellowcontainer>h2{
+.yellowcontainer h2{
     font-style: italic;
+    font-weight: 800;
+    font-size: 24px;
+}
+.yellowcontainer p {
+    font-weight: 400;
+    font-size: 16px;
 }
 .yellowcontainer button {
-    padding: 6px;
+    font-weight: 600;
+    font-size: 16px;
     background-color: black;
     color: #B3BC00;
     border-radius: 10px;
+    padding: 6px;
 }
 .yellowcontainer button:hover{
     background-color: #ffffff;
@@ -202,7 +221,11 @@ nav li:hover {
     color: white;
     display: flex;
 }
-
+.section5icons figcaption{
+    font-size: 13px
+    font-weight: 400;
+    line-height: 18px;
+}
 
 
 
