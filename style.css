@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(30, 22, 22);
+    background-color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -223,7 +223,7 @@ margin: 15px;
     display: flex;
 }
 .section5icons figcaption{
-    font-size: 13px
+    font-size: 13px;
     font-weight: 400;
     line-height: 18px;
 }
@@ -252,6 +252,11 @@ margin: 15px;
     margin-right: 21px;
 }
 
+
+.section7{
+    border-bottom: 1px solid #3b3b3b;
+    margin-bottom: 30px;
+}
 .section7 h1{
     color: white;
     font-size: 29px;
@@ -265,3 +270,90 @@ margin: 15px;
     font-weight: 400;
     line-height: 24px;
 }
+.section7table{
+    display: flex;
+    /* border: 1px solid red; */
+}
+.yellopercent{
+    list-style: none;
+    color: #B3BC00;
+    /* display: inline-block; */
+    /* border: 1px solid rgb(16, 218, 233); */
+}
+.strikethroughtext{
+    color: #ffffff;
+    list-style: none;
+    text-decoration: line-through;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.section7table>img{
+    background-color: #B3BC00;
+}
+
+.section8{
+   display: flex;
+   border-bottom: 1px solid #3b3b3b;
+}
+.section8text>h2{
+    color: white;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 35px;
+    font-style: italic;
+}
+.section8text>p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;   
+}
+.section8button>a{
+    text-decoration: none;
+    background-color: #B3BC00;
+    color: black;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 80px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.section8button>a:hover{
+    background-color: #ffffff;
+}
+
+
+.section9{
+
+}
+.section9text{
+    /* color: white; */
+}
+.section9text>h2{
+    color: white;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 35px;
+    font-style: italic;
+}
+.section9text>p{
+   color: white;
+   font-style: italic;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+}
+.section9text>p>span{
+    color: #B3BC00;
+    font-weight: 600;
+    font-size: 16px;
+}
+.section9para{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+ }
