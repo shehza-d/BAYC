@@ -274,6 +274,9 @@ margin: 15px;
     display: flex;
     /* border: 1px solid red; */
 }
+.shirtdiv{
+    background-color: #B3BC00;
+}
 .yellopercent{
     list-style: none;
     color: #B3BC00;
@@ -289,7 +292,7 @@ margin: 15px;
     line-height: 19px;
 }
 .section7table>img{
-    background-color: #B3BC00;
+    /* background-color: #B3BC00; */
 }
 
 .section8{
@@ -327,10 +330,15 @@ margin: 15px;
 
 
 .section9{
-
+    border-bottom: 1px solid #eaeaea;
+}
+.sec9flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .section9text{
-    /* color: white; */
+    width: 60%;
 }
 .section9text>h2{
     color: white;
@@ -357,3 +365,62 @@ margin: 15px;
     font-size: 16px;
     line-height: 24px;
  }
+ .fourimggridreal{
+     display: grid;
+     row-gap: 15px;
+     column-gap: 10px;
+     grid-template-columns: 50% 50%;
+     /* grid-template-rows: 2; */
+ }
+
+.verified{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+.verified>a{
+    color: #B3BC00;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    ;
+}
+.verified>a:hover{
+    color: white;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.form{
+
+}
+.form>p{
+    font-size: 13px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+}
+
+
+
+
+.r{
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+}
+.terms{
+    color: #B3BC00;
+    font-weight: 400;
+    font-size: 10px;
+}
+.terms:hover{
+    color: white;
+}
+.yellowend{
+    height: 15px;
+    background-color: #B3BC00;
+}
