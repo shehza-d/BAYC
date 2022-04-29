@@ -32,7 +32,7 @@ nav ul li {
 
 nav li:hover {
     color: #B3BC00;
-    font-color: #B3BC00;
+    /* font-color: #B3BC00; */
 }
 
 .navlinks {
@@ -70,13 +70,28 @@ margin: 15px;
     display: block;
     margin: auto;
     border-radius: 5px;
+    max-width: 100%;
+}
+
+.allmargin{
+        margin-left: 8%;
+        margin-right: 8%;
 }
 
 
 .section1 {
     display: flex;
+    margin-top: 65px;
+    margin-bottom: 20px;
 }
-
+.section1text{
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%;
+    /* min-width: 60%;
+    max-width: 90%; */
+   margin-left: 35px;
+}
 .section1text>h1 {
     color: white;
     font-size: 29px;
@@ -127,6 +142,8 @@ margin: 15px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    margin-top: 30px;
+    width: 80%;
 }
 
 
@@ -138,16 +155,21 @@ margin: 15px;
    font-size: 13px;
     font-weight: 200;
     line-height: 19px;
+    width: 520px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 90px;
 }
 
 .yellowcontainer {
-    margin: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 20px;
     background-color: #B3BC00;
     color: black;
-    border-bottom: 1px solid #3b3b3b;
+    /* border-bottom: 1px solid #3b3b3b; */
     display: flex;
     justify-content: space-evenly;
 
@@ -156,10 +178,13 @@ margin: 15px;
     font-style: italic;
     font-weight: 800;
     font-size: 24px;
+    /* width: 33%; */
 }
 .yellowcontainer p {
     font-weight: 400;
     font-size: 16px;
+    /* display: inline-block;
+    width: 33%; */
 }
 .yellowcontainer button {
     font-weight: 600;
@@ -169,6 +194,7 @@ margin: 15px;
     border-radius: 10px;
     padding: 6px;
     border-style: none;
+    /* width: 33%; */
 }
 .yellowcontainer button:hover{
     background-color: #ffffff;
@@ -178,9 +204,17 @@ margin: 15px;
 
 .section4 {
     display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-bottom: 45px;
+    margin-bottom: 40px;
+    border-top: 1px solid #3b3b3b;
     border-bottom: 1px solid #3b3b3b;
 }
-
+.section4text{
+    margin-top: 45px;
+    width: 60%;
+}
 .section4text>h1{
     color: white;
     font-size: 29px;
@@ -193,6 +227,8 @@ margin: 15px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .section4text a {
     color: #B3BC00;
@@ -201,6 +237,11 @@ margin: 15px;
 .section4text a:hover {
     color: #ffffff;
 }
+.gif{
+    margin-top: 40px;
+}
+
+
 
 .section5{
     border-bottom: 1px solid #3b3b3b;
@@ -217,6 +258,9 @@ margin: 15px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    width: 76%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .section5icons{
     color: white;
@@ -275,6 +319,8 @@ margin: 15px;
     /* border: 1px solid red; */
 }
 .shirtdiv{
+    height: 280px;
+    width: 300px;
     background-color: #B3BC00;
 }
 .yellopercent{
@@ -291,9 +337,9 @@ margin: 15px;
     font-weight: 400;
     line-height: 19px;
 }
-.section7table>img{
-    /* background-color: #B3BC00; */
-}
+/* .section7table>img{
+    background-color: #B3BC00;
+} */
 
 .section8{
    display: flex;
@@ -394,9 +440,7 @@ margin: 15px;
   display: flex;
   justify-content: space-between;
 }
-.form{
-
-}
+/* .form{} */
 .form>p{
     font-size: 13px;
     font-weight: 600;
