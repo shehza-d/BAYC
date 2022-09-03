@@ -1,0 +1,13 @@
+.navlinks>div>ul {
+	display: none;
+}
+
+.fourimggrid {
+	margin-left: 0px;
+	/* padding-left: 2px; */
+	/* padding-right: 2px; */
+}
+.section1text{
+	margin: 0px;
+	padding: 0px;
+}

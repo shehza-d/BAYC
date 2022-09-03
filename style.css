@@ -81,6 +81,7 @@ margin: 15px;
 
 .section1 {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 65px;
     margin-bottom: 20px;
 }
@@ -91,6 +92,9 @@ margin: 15px;
     /* min-width: 60%;
     max-width: 90%; */
    margin-left: 35px;
+   margin-bottom: 24px;
+   padding-left: 15px;
+   padding-right: 15px;
 }
 .section1text>h1 {
     color: white;
@@ -110,13 +114,17 @@ margin: 15px;
 .fourimggrid {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 78px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .twoimgrow {
     display: flex;
 }
-
-
+.twoimgrow>img{
+    padding: 6px;
+}
 .section2 {
     display: flex;
 }
@@ -166,34 +174,49 @@ margin: 15px;
     margin-bottom: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 20px;
+    padding: 24px;
     background-color: #B3BC00;
     color: black;
     /* border-bottom: 1px solid #3b3b3b; */
     display: flex;
     justify-content: space-evenly;
-
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-grow: 1; */
 }
-.yellowcontainer h2{
+.yellowcontainer>h2{
     font-style: italic;
     font-weight: 800;
     font-size: 24px;
+    flex-basis: 33%;
     /* width: 33%; */
+    /* width: 189px;
+    height: 36.7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 17px;
+    margin-top: 17px;
+    margin-left: 24px;
+    margin-right: 24px; */
 }
-.yellowcontainer p {
+.yellowcontainer>p {
     font-weight: 400;
     font-size: 16px;
-    /* display: inline-block;
-    width: 33%; */
+    flex-basis: 33%;
+    /* display: inline-block; */
+    /* width: 33%; */
 }
-.yellowcontainer button {
+.yellowcontainer>button {
     font-weight: 600;
     font-size: 16px;
     background-color: black;
     color: #B3BC00;
     border-radius: 10px;
-    padding: 6px;
     border-style: none;
+    padding: 6px;
+    /* height: 167px;
+    width: 48px; */
+    flex-basis: 33%;
     /* width: 33%; */
 }
 .yellowcontainer button:hover{
@@ -205,6 +228,7 @@ margin: 15px;
 .section4 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 60px;
     padding-bottom: 45px;
     margin-bottom: 40px;
@@ -271,11 +295,9 @@ margin: 15px;
     font-weight: 400;
     line-height: 18px;
 }
-
-
-
 .section6{
     display: flex;
+    flex-wrap: wrap;
     border-bottom: 1px solid #3b3b3b;
 }
 .section6text>h1{
@@ -298,6 +320,7 @@ margin: 15px;
 
 
 .section7{
+    margin-top: 20px;
     border-bottom: 1px solid #3b3b3b;
     margin-bottom: 30px;
 }
@@ -316,6 +339,7 @@ margin: 15px;
 }
 .section7table{
     display: flex;
+    flex-wrap: wrap;
     /* border: 1px solid red; */
 }
 .shirtdiv{
@@ -343,6 +367,9 @@ margin: 15px;
 
 .section8{
    display: flex;
+   margin-top: 30px;
+   padding-bottom: 30px;
+   margin-bottom: 30px;
    border-bottom: 1px solid #3b3b3b;
 }
 .section8text>h2{
@@ -358,7 +385,7 @@ margin: 15px;
     font-weight: 400;
     line-height: 24px;   
 }
-.section8button>a{
+.section8button>a>button{
     text-decoration: none;
     background-color: #B3BC00;
     color: black;
@@ -366,11 +393,11 @@ margin: 15px;
     font-weight: 700;
     font-size: 16px;
     border-radius: 5px;
-    margin: 80px;
+    /* margin: 80px;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 200px; */
 }
-.section8button>a:hover{
+.section8button>a>button:hover{
     background-color: #ffffff;
 }
 
@@ -382,6 +409,7 @@ margin: 15px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom:30px;
 }
 .section9text{
     width: 60%;
@@ -439,6 +467,7 @@ margin: 15px;
 .footer{
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 /* .form{} */
 .form>p{
